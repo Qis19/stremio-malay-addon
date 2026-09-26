@@ -1,0 +1,41 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Data (user-generated)
+data/*.json
+data/*.log
+data/*.backup.json
+!data/.gitkeep
+
+# Test artifacts
+test/*.tmp
+test/sample.bin
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# PM2
+.pm2/
+
+# Optional: uv/poetry (if you had any)
+.venv/
+
+data/test-sample.bin
+test/*.tmp
